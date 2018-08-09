@@ -43,6 +43,13 @@ print(result)
 # --------------------------------------------------------------------------------
 
 # ----------- Save Model Using joblib --------------------------------------------
+"""
+Joblib is part of the SciPy ecosystem and provides utilities for pipelining Python jobs.
+It provides utilities for saving and loading Python objects that make use of NumPy data structures, 
+efficiently.
+This can be useful for some machine learning algorithms that require a lot of parameters 
+or store the entire dataset (like K-Nearest Neighbors).
+"""
 import pandas
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
